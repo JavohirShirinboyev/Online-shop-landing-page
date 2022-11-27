@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
 }
 
+/*=======** Navigation **=======*/
+
 .navigation {
     display: flex;
     align-items: center;
@@ -38,6 +40,43 @@ body {
             margin: 10px;
             color: #000;
             font-size: 18px;
+        }
+    }
+}
+
+/*=======** Categories **=======*/
+
+.categories {
+    padding: 10px 75px 0 75px;
+    border-top: 0.09rem solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        background-color: #f8f8f8;
+        color: #000;
+        svg {
+            margin-right: 12px;
+        }
+    }
+    .dropdown-toggle::after {
+        margin-left: 20px;
+    }
+
+    .links {
+        display: flex;
+        gap: 60px;
+        list-style: none;
+        .link-item {
+            .item {
+                text-decoration: none;
+                color: #403f3f;
+            }
+            .active {
+                color: #ff5d18;
+            }
         }
     }
 }

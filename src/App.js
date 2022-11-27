@@ -1,11 +1,13 @@
 import React from 'react';
-import Nav from './homePage/Nav';
 import "./homePage/styles/main.scss";
+import Nav from './homePage/Nav';
+import Categories from "./homePage/Categories"
 
 function App() {
   return (
     <div className="App">
       <Nav />
+      <Categories />
     </div>
   );
 }
