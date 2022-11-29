@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 75px;
+    height: 10vh;
     .searchSection {
         margin-right: 115px;
         form {
@@ -40,6 +43,9 @@ body {
             margin: 10px;
             color: #000;
             font-size: 18px;
+            &:hover {
+                color: #ff5d18;
+            }
         }
     }
 }
@@ -47,7 +53,8 @@ body {
 /*=======** Categories **=======*/
 
 .categories {
-    padding: 10px 75px 0 75px;
+    height: 10vh;
+    padding: 10px 75px 10px 75px;
     border-top: 0.09rem solid #dfdfdf;
     display: flex;
     align-items: center;
@@ -73,9 +80,76 @@ body {
             .item {
                 text-decoration: none;
                 color: #403f3f;
+                transition: 0.3s ease-in-out;
+                &:hover {
+                    color: #ff5d18;
+                }
             }
             .active {
                 color: #ff5d18;
+            }
+        }
+    }
+}
+
+/*=======** Home **=======*/
+
+.home {
+    height: 80vh;
+    overflow: hidden;
+    background-image: url('../../assets/home\ bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .main {
+        display: flex;
+        justify-content: space-between;
+        .side1 {
+            padding: 145px 100px 10px 75px;
+            h3 {
+                font-size: 50px;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                margin-bottom: 30px;
+            }
+            p {
+                font-family: 'Open Sans', sans-serif;
+                color: #fff;
+                margin-bottom: 70px;
+            }
+            .buttons {
+                .btn {
+                    background-color: #ff4f04;
+                    padding: 10px 20px;
+                    color: #fff;
+                    border-radius: 5px;
+                    transition: 0.3s ease-in-out;
+                    &:nth-child(1) {
+                        &:hover {
+                            background-color: #5a5a5a54;
+                        }
+                    }
+                    &:nth-child(2) {
+                        background-color: #5a5a5a54;
+                        margin-left: 30px;
+                        &:hover {
+                            background-color: #5a5a5a90;
+                        }
+                    }
+                    &:focus {
+                        transform: scale(0.97);
+                    }
+                    svg {
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .side2 {
+            img {
+                width: 100%;
             }
         }
     }
