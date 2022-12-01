@@ -1,8 +1,10 @@
-import React from 'react';
-import "./homePage/styles/main.scss";
-import Nav from './homePage/Nav';
-import Categories from "./homePage/Categories"
-import Home from './homePage/Home';
+import React from "react";
+import "../src/styles/main.scss";
+import Nav from "./homePage/Nav";
+import Categories from "./homePage/Categories";
+import Home from "./homePage/Home";
+import SmartWatch from "./recommended/SmartWatch";
+import Ads from "./ads/Ads";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Nav />
       <Categories />
       <Home />
+      <SmartWatch />
+      <Ads />
     </div>
   );
 }
