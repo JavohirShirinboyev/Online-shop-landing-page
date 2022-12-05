@@ -139,7 +139,7 @@ body {
               background-color: #5a5a5a90;
             }
           }
-          &:focus {
+          &:active {
             transform: scale(0.97);
           }
           svg {
@@ -259,6 +259,206 @@ body {
       font-weight: 500;
       &:active {
         transform: scale(0.98);
+      }
+    }
+  }
+}
+
+/*=======** NewCollec **=======*/
+
+.newcollec {
+  padding: 50px 0;
+  .container {
+    .row {
+      .col-md-12 {
+        text-align: center;
+        p {
+          margin: 30px 0 5px 0;
+          text-transform: uppercase;
+          color: #302f2f;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: 2px;
+        }
+        h4 {
+          text-transform: uppercase;
+          margin: 0 0 30px 0;
+          color: #111111;
+          font-family: "Roboto", sans-serif;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+      }
+      .cardsArea {
+        .row {
+          .cards {
+            .card {
+              background-color: #f5f5f5;
+              border: none;
+              border-radius: 15px;
+              margin: 10px;
+              padding: 5px;
+              cursor: pointer;
+              transition: 0.3s ease-in-out;
+              &:active {
+                transform: scale(0.95);
+              }
+              .card-body {
+                padding: 0;
+                img {
+                  width: 100%;
+                }
+              }
+              .card-footer {
+                background-color: transparent;
+                border: none;
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                p {
+                  font-weight: 600;
+                  font-family: "Roboto", sans-serif;
+                }
+                span {
+                  background-color: #fff;
+                  padding: 5px 14px;
+                  border-radius: 20px;
+                  color: #ff4f04;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+      .product-card {
+        box-sizing: border-box;
+        margin: 10px;
+        width: 48%;
+        .card {
+          border: none;
+          border-radius: 15px;
+          background-color: #f5f5f5;
+          padding: 5px;
+          font-family: "Roboto", sans-serif;
+          height: 100%;
+          .card-header {
+            background-color: transparent;
+            border: none;
+            display: flex;
+            justify-content: space-between;
+            .discount {
+              background-color: #000;
+              padding: 5px 15px;
+              color: #fff;
+              font-weight: 600;
+              border-radius: 20px;
+            }
+            .price-collec {
+              background-color: #fff;
+              padding: 5px 14px;
+              border-radius: 20px;
+              color: #ff4f04;
+              font-weight: 700;
+            }
+          }
+          .card-body {
+            img {
+              // width: 100%;
+            }
+          }
+          .card-footer {
+            border: none;
+            background-color: transparent;
+            padding: 0 30px;
+            .brand-title {
+              font-weight: 600;
+              font-family: "Roboto", sans-serif;
+            }
+            .brand-name {
+              color: #7a7a7a;
+            }
+          }
+        }
+      }
+      .newcollec-footer {
+        margin: 50px 0 30px 0;
+        .exploreBtn {
+          padding: 15px 22px;
+          border: 1px solid #707070;
+          border-radius: 8px;
+          color: #302f2f;
+          text-decoration: none;
+          font-weight: 500;
+          cursor: pointer;
+          &:active {
+            transform: translate(0.98);
+          }
+        }
+      }
+    }
+  }
+}
+
+/*=======** Trending **=======*/
+
+.trending {
+  padding: 50px 0;
+  .container {
+    .row {
+      .trending-title {
+        p {
+          margin: 30px 0 5px 0;
+          text-transform: uppercase;
+          color: #302f2f;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: 2px;
+        }
+        h4 {
+          text-transform: uppercase;
+          margin: 0 0 30px 0;
+          color: #111111;
+          font-family: "Roboto", sans-serif;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+      }
+      .trendingProduct {
+        .row {
+          .product {
+            .card {
+              margin: 10px;
+              border: none;
+              .card-body {
+                background-color: #f5f5f5;
+                border-radius: 15px;
+                img {
+                  width: 100%;
+                }
+              }
+              .card-footer {
+                margin-top: 20px;
+                background-color: transparent;
+                border: none;
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                p {
+                  font-weight: 600;
+                  font-family: "Roboto", sans-serif;
+                }
+                span {
+                  background-color: #f4e4de;
+                  padding: 5px 14px;
+                  color: #f44f04;
+                  display: inline;
+                  border-radius: 20px;
+                  margin: 0;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

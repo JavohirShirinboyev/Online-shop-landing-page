@@ -1,0 +1,6 @@
+[
+  { "id": "1", "url": "/img1.png", "title": "Nike Air Force", "price": "99" },
+  { "id": "2", "url": "/img2.png", "title": "NikeCourt Air", "price": "99" },
+  { "id": "3", "url": "/img1.png", "title": "Nike SB Zoom", "price": "99" },
+  { "id": "4", "url": "/img4.png", "title": "Nike Signal", "price": "99" }
+]
