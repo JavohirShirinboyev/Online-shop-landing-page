@@ -8,6 +8,19 @@ body {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff4f05 !important;
+  // border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
 /*=======** Navigation **=======*/
 
 .navigation {
@@ -454,6 +467,57 @@ body {
                   border-radius: 20px;
                   margin: 0;
                   font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*=======** Footer **=======*/
+
+footer {
+  padding: 50px 0;
+  .container {
+    .row {
+      .brand-box {
+        padding: 0px 30px;
+        .brand {
+          img {
+            margin-bottom: 15px;
+          }
+          p {
+            width: 75%;
+            color: #302f2f;
+            font-family: "Roboto" sans-serif;
+          }
+        }
+      }
+      .col-md-8 {
+        .row {
+          .col-md-4 {
+            .theme {
+              margin: 0;
+              margin-bottom: 5px;
+              font-family: "Roboto" sans-serif;
+              font-weight: 700;
+              letter-spacing: 0.5px;
+              font-size: 17px;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              li {
+                padding: 5px 0;
+                font-size: 15px;
+                font-family: "Roboto" sans-serif;
+                a {
+                  color: #302f2f;
+                  text-decoration: none;
                 }
               }
             }

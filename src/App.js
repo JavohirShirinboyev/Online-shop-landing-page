@@ -7,6 +7,7 @@ import SmartWatch from "./recommended/SmartWatch";
 import Ads from "./ads/Ads";
 import NewCollec from "./newcollection/NewCollec";
 import Trending from "./trending/Trending";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <NewCollec />
       <Ads />
       <Trending />
+      <Ads />
+      <Footer />
     </div>
   );
 }
