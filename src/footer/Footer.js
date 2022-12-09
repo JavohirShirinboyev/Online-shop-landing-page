@@ -20,7 +20,7 @@ const Footer = () => {
           </Col>
           <Col md="8" className="links-box">
             <Row>
-              <Col md="4">
+              <Col md="4" sm="12">
                 <h4 className="theme">Products</h4>
                 <ul className="links">
                   <li>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </ul>
               </Col>
 
-              <Col md="4">
+              <Col md="4" sm="12">
                 <h4 className="theme">Legals</h4>
                 <ul>
                   <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </Col>
-              <Col md="4">
+              <Col md="4" sm="12">
                 <h4 className="theme">Contacts</h4>
                 <ul>
                   <li>

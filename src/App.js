@@ -1,5 +1,6 @@
 import React from "react";
 import "../src/styles/main.scss";
+import "./styles/responsive.scss";
 import Nav from "./homePage/Nav";
 import Categories from "./homePage/Categories";
 import Home from "./homePage/Home";

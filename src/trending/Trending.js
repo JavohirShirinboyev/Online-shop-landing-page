@@ -15,7 +15,7 @@ function Trending() {
             <Row>
               {dataTrending.map((value) => {
                 return (
-                  <Col className="product" md="3" key={value.id}>
+                  <Col className="product" md="3" sm="4" key={value.id}>
                     <Card>
                       <CardBody>
                         <img src={value.url} alt="Trending Img" />

@@ -63,13 +63,19 @@ body {
       }
     }
   }
+  .responsive-modal {
+    display: none;
+  }
 }
 
 /*=======** Categories **=======*/
 
 .categories {
+  #responsiveLinks {
+    display: none;
+  }
   height: 10vh;
-  padding: 10px 75px 10px 75px;
+  padding: 10px 75px;
   border-top: 0.09rem solid #dfdfdf;
   display: flex;
   align-items: center;
@@ -376,7 +382,7 @@ body {
           }
           .card-body {
             img {
-              // width: 100%;
+              width: 100%;
             }
           }
           .card-footer {

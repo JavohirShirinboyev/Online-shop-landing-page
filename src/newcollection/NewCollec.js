@@ -23,7 +23,7 @@ function NewCollec() {
             <Row>
               {dataCollec.map((data) => {
                 return (
-                  <Col className="cards" lg="6" md="6" key={data.id}>
+                  <Col className="cards" lg="6" sm="6" key={data.id}>
                     <Card>
                       <CardBody>
                         <img src={data.url} alt="Collection Img" />
